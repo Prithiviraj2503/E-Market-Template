@@ -1,0 +1,67 @@
+<html> 
+<head> 
+<style> 
+body{
+background-image:url("reg.jpg");
+}
+
+ div {  
+    box-sizing: border-box; 
+    width: 100%; 
+    border: 100px solid black; 
+    float: left; 
+    align-content: center; 
+    align-items: center; 
+} 
+   
+form {                                         
+    margin: 0 auto; 
+    width: 600px; 
+}
+
+h1{
+color:darkblue;
+text-align:center;
+}
+h2
+{
+color:red;
+
+}
+h3
+{
+color:green;
+}
+h4
+{
+color:darkblue;
+text-align:center;
+}
+p
+{
+font-size:19px;
+}
+p1{
+color:blue;
+font-size:20px;
+}
+</style>
+
+<body> 
+<h2> Register With Us...</h2>     
+<h3><marquee>Dear Users Welcome! Sign Up here To Create Your Account with Us!!!</marquee></h3> <br>
+<form name="RegForm" action="https://localhost/farm/register.php" method="post">  
+      
+ <b> <p>User Name: <input type="text" size=65 name="name" required> </p><br> 
+<p>User ID: <input type="text" size=65 name="ud" required required> </p><br>   
+     <p>Password: <input type="password" size=65 name="password" required> </p><br> 
+    <p>Contact number: <input type="text" size=65 name="telephone" required> </p><br>      
+    <p> Address: <input type="text" size=65 name="address" required>  </p><br> 
+    <p>Pincode: <input type="text" size=65 name="pin" required>  </p><br> 
+
+ <p><input type="submit" value="Submit" name="Submit">      
+        <input type="reset" value="Reset" name="Reset">   </b>
+    </p>          
+</form> 
+</body> 
+</html> 
